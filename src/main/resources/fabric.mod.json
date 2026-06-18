@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "vaultsentinel",
+	"version": "${version}",
+	"name": "Vault Sentinel",
+	"description": "Arms when you hold the Ominous Trial Key and aim at an Ominous Vault, then flashes a screen/sound cue the instant the Heavy Core shows up in the vault's display rotation. Does not click for you.",
+	"authors": [
+		"You"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.vaultsentinel.client.VaultSentinelClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
